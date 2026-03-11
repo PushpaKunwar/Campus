@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Mafatlal</groupId>
+  <artifactId>Campus</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Programs</name>
+
+  <!-- ✅ Add this dependencies section -->
+  <dependencies>
+    <!-- Selenium Java dependency -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.18.1</version> <!-- You can update this to latest -->
+    </dependency>
+
+    <!-- (Optional) TestNG, if you're using it -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.9.0</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.32</version> <!-- Use latest version -->
+</dependency>
+
+
+    <dependency>
+    	<groupId>com.OrangeRHM_POM</groupId>
+    	<artifactId>com.OrangeRHM_POM</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.15.1</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
